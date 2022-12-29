@@ -44,13 +44,13 @@ const Home: NextPage = () => {
       <Navbar />
       <div className="flex flex-col items-center justify-center mt-44">
         <Head>
-          <title>Essay generator</title>
+          <title>Study Buddy</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <main className="flex w-full flex-col items-center justify-center px-20 text-center">
           <h1 className="text-3xl font-regular">
-            Enter an essay prompt to generate a 5 paragraph essay
+            Ask Study Buddy a question
           </h1>
 
           <form
@@ -63,8 +63,8 @@ const Home: NextPage = () => {
                 { 'text-gray-400': isLoading },
               )}
               type="text"
-              placeholder="Would you rather live in the city or the country?"
-              minLength={15}
+              placeholder="What is the Pythagorean theorem?"
+              minLength={10}
               onChange={handlePromptChange}
               disabled={isLoading}
               required
@@ -77,7 +77,7 @@ const Home: NextPage = () => {
               type="submit"
               disabled={isLoading}
             >
-              Write my essay
+              Answer
             </button>
             <div role="status">
               <svg

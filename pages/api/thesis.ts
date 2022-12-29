@@ -15,7 +15,7 @@ export default async function handler(
   const prompt = queries.prompt
 
   const openaiPrompt =
-    'Write a one sentence thesis statement that contains three supporting points for an essay with the following prompt: "' +
+    'Write a one to five sentence paragraph that answers the question "' +
     prompt +
     '"'
 

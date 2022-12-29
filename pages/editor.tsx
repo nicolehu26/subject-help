@@ -56,20 +56,19 @@ const Editor: NextPage = () => {
       <Navbar />
       <div className="flex flex-col items-center justify-center mt-8">
         <Head>
-          <title>Essay generator</title>
+          <title>Study Buddy</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <main className="flex w-full flex-col items-center justify-center px-20 text-center">
           <h1 className="text-3xl font-bold">
-            <span>Prompt: </span>
+            <span>Question: </span>
             <span className="text-3xl font-normal">
               {prompt || 'undefined'}
             </span>
           </h1>
           <p className="text-xl mt-5">
-            Confirm the following thesis looks good. If not, change as needed
-            and then click "Write my essay".
+            Here's the basic idea. Click the button for a more in-depth answer.
           </p>
           <form className="min-w-full" onSubmit={handleSubmit}>
             <input
@@ -83,16 +82,7 @@ const Editor: NextPage = () => {
               disabled={isLoading}
               required
             ></input>
-            <button
-              className={classnames(
-                'mt-6 text-white font-medium py-4 px-8 rounded text-xl',
-                { 'bg-blue-700': !isLoading, 'bg-blue-300': isLoading },
-              )}
-              type="submit"
-              disabled={isLoading}
-            >
-              Write my essay
-            </button>
+         
             <div role="status">
               <svg
                 className={classnames(
