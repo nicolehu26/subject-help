@@ -68,7 +68,7 @@ const Editor: NextPage = () => {
             </span>
           </h1>
           <p className="text-xl mt-5">
-            Here's the basic idea. Click the button for a more in-depth answer.
+            Here's an explanation. You can go back and ask again if you have further questions.
           </p>
           <form className="min-w-full" onSubmit={handleSubmit}>
             <input

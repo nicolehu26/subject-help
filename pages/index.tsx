@@ -53,6 +53,10 @@ const Home: NextPage = () => {
             Ask Study Buddy a question
           </h1>
 
+          <h3 className="text-2xl font-regular">
+            I specialize in math and science topics. How can I help?
+          </h3>
+
           <form
             className="mt-6 flex w-full flex-1 flex-col items-center justify-center"
             onSubmit={handleSubmit}
