@@ -10,7 +10,7 @@ const Navbar = () => {
         <Link href="/" className="flex items-center">
           <Image src={logo} className="mr-2" alt="Essay generator logo" />
           <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-            Study Buddy
+            Study Pal
           </span>
         </Link>
         <button

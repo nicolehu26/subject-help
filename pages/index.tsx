@@ -44,13 +44,13 @@ const Home: NextPage = () => {
       <Navbar />
       <div className="flex flex-col items-center justify-center mt-44">
         <Head>
-          <title>Study Buddy</title>
+          <title>Study Pal</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <main className="flex w-full flex-col items-center justify-center px-20 text-center">
           <h1 className="text-3xl font-regular">
-            Ask Study Buddy a question
+            Ask Study Pal a question
           </h1>
 
           <h3 className="text-2xl font-regular">

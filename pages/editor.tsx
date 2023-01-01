@@ -56,7 +56,7 @@ const Editor: NextPage = () => {
       <Navbar />
       <div className="flex flex-col items-center justify-center mt-8">
         <Head>
-          <title>Study Buddy</title>
+          <title>Study Pal</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
@@ -68,7 +68,7 @@ const Editor: NextPage = () => {
             </span>
           </h1>
           <p className="text-xl mt-5">
-            Here's an explanation. You can go back and ask again if you have further questions.
+            Here's an explanation. You can go back and ask me again if you have further questions.
           </p>
           <form className="min-w-full" onSubmit={handleSubmit}>
             <input
